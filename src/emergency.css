@@ -1,0 +1,65 @@
+/* Emergency Page Container */
+.emergency-page {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.emergency-page h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Contacts Container */
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Individual Contact Block */
+.contact-block {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0);
+}
+
+.contact-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 7px 8px 0px rgba(0, 0, 0, 0.323);
+}
+
+.contact-block h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-block p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact Number Button */
+.contact-number {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-number:hover {
+    background-color: #c0392b;
+}
